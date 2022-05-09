@@ -6,6 +6,7 @@ INSTALL_CONTENT = """
 # ! pip install git+https://github.com/huggingface/transformers.git
 """
 
+
 notebook_first_cells = [{"type": "code", "content": INSTALL_CONTENT}]
 black_avoid_patterns = {
     "{processor_class}": "FakeProcessorClass",
